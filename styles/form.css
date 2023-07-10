@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+#formedit{
+    background-color: #eed819;
+    width:600px;
+    border-spacing: 0;
+    border-radius: 12px;
+}
+
+#formadd{
+    background-color: #2db175;
+    width:600px;
+    border-spacing: 0;
+    border-radius: 12px;
+}
+
+.tampilan-table{
+    border: 1px solid black;
+    background-color:transparent;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.table-body{
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+
+
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    border-width: 0.5px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+input[type=button]{
+    background-color: #bf3745;
+    color: white;
+    border-width: 0.5px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+thead{
+    background-color : blue;
+    color : white;
+}
+
+.for-edit{
+    background-color: #eed819;
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 0.5px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.for-hapus{
+    background-color: #bf3745;
+    font-family: 'Courier New', Courier, monospace;
+    color : white;
+    border-width: 0.5px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+
+}
+
+.show{
+    display: inline, !important;
+}
+
+.hide{
+    display: none;
+}
